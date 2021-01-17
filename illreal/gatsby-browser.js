@@ -5,3 +5,7 @@ import "typeface-merriweather"
 import "./src/normalize.css"
 // custom CSS styles
 import "./src/style.css"
+// bootstrap
+import "bootstrap/dist/css/bootstrap.min.css"
+
+

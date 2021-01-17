@@ -11,11 +11,13 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const BlogPostTemplate = ({ data: { previous, next, post } }) => {
+const BlogPostTemplate = ({ data: { previous, next, post  } }) => {
   const featuredImage = {
     fluid: post.featuredImage?.node?.localFile?.childImageSharp?.fluid,
     alt: post.featuredImage?.node?.alt || ``,
   }
+
+  //const items 
 
   return (
     <Layout>
@@ -30,7 +32,8 @@ const BlogPostTemplate = ({ data: { previous, next, post } }) => {
           <h1 itemProp="headline">{parse(post.title)}</h1>
 
           <p>{post.date}</p>
-
+          
+          
           {/* if we have a featured image for this post let's display it */}
           {featuredImage?.fluid && (
             <Image

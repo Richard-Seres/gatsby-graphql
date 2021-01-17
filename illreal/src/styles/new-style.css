@@ -1,0 +1,128 @@
+*{
+  font-family: "Pacifica";
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #864ada;
+}
+
+
+p {
+  display: inline;
+}
+
+
+
+
+/* HEADER */
+
+.container-fluid{
+  padding: 0;
+  overflow: hidden;
+  max-width: 100vw;
+}
+
+.navbar {
+  background: transparent;
+  font-size: 1.5rem;
+}
+
+.navbar-fixed-top {
+  position: fixed;
+  z-index: 1030;
+}
+
+.navbar-nav {
+  white-space:nowrap;
+}
+
+ul, li {
+  display: inline;
+  white-space:nowrap;
+  padding: 0 1rem 0 1rem;
+}
+
+#myCarousel {
+}
+
+.bg-img {
+  width: 100vw;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Main */
+
+
+
+/* FOOTER */
+
+#footer {
+  background-color:#2A2A2A;
+  color: #707070;
+  width: 100vw;
+}
+  .row {
+    line-height: 2.8;
+  }
+
+  .social{
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    margin: 0.5rem;
+    transition: width 0.2s, height 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0.1s;
+  }
+
+  .social:hover{
+    color: #864ada;
+    width: 3rem;
+    height: 3rem;
+  }
+
+
+  #logo {
+    font-family: 'Corbel';
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    color: white;
+    transition: font-size .2s ease, font-family .2s ease;
+    transition-delay: font-size 0.4s, font-family 0.4s;
+  }
+
+    #logo:hover {
+      color: #864ada;
+      font-size: 2.6rem;
+      font-family: "Pacifica";
+    }
+
+    #copyr-text {
+      white-space:nowrap;
+    }
+
+    #copyr-text > a:hover {
+      color: #864ada;
+    }
+
+  @media (max-width: 768px) {
+    .container-fluid {
+      text-align: center;
+      padding: 0;
+      overflow-x: none;
+      max-width: 100vw;
+    }
+
+    #logo {
+      display: none;
+    }
+  }
