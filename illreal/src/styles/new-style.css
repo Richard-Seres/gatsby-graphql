@@ -1,5 +1,10 @@
 *{
+  box-sizing: border-box;
   font-family: "Pacifica";
+}
+
+h1 {
+  font-size: 4rem;
 }
 
 a {
@@ -9,47 +14,137 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #864ada;
+  color: #6726c2;
 }
-
 
 p {
   display: inline;
 }
 
+main {
+  position: absolute;
+}
 
+body::-webkit-scrollbar {
+  width: 15px;
+  height: 8px;
+  background-color: #1B1B1B;
+}
 
+body::-webkit-scrollbar-thumb {
+  background: #383737;
+}
 
 /* HEADER */
 
-.container-fluid{
-  padding: 0;
-  overflow: hidden;
-  max-width: 100vw;
+.site-header{
+  font-size:  1.2rem;
+  letter-spacing: 0.05rem;
+  overflow-x: hidden;
 }
 
-.navbar {
-  background: transparent;
-  font-size: 1.5rem;
-}
+  .navbar {
+    background: linear-gradient(to bottom, #000000 0%, #000000c7 25%, #1f1f1f00 100%);
+    width: 100%;
+  }
 
-.navbar-fixed-top {
-  position: fixed;
-  z-index: 1030;
-}
+    .container {
+      display: flex;
+      flex-basis: auto;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-content: flex-start;
+    }
 
-.navbar-nav {
-  white-space:nowrap;
-}
+      .navbar-toggle {
+        display: none;
+      }
 
-ul, li {
-  display: inline;
-  white-space:nowrap;
-  padding: 0 1rem 0 1rem;
-}
+  .navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+    z-index: 1030;
+  }
 
-#myCarousel {
-}
+  /* right nav */
+  .navbar-collapse.collapse{
+    display: inline;
+    flex-basis: auto;
+    justify-content: flex-end;
+  }
+
+
+    .nav{
+      flex-direction: row;  
+    }
+
+    .navbar-right {
+      float: right;
+      list-style: none;
+    }
+
+    ul li, ol li {
+      margin-bottom: 0;
+    }
+    
+      .menu-item {
+        align-content: center;
+      }
+
+      .item-sep {
+        color: white;
+        display: inline;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+   
+  /* floating social links */
+  .fl-fl{
+    display: block;
+    background-color: black;
+    font: normal normal 10px Arial;
+    font-family: "Pacifica";
+    left: -87px;
+    letter-spacing: 3px;
+    line-height: 2rem;
+    padding: 6px;
+    position: fixed;
+    transition: all .25s ease;
+    text-align: right;
+    text-transform: uppercase;
+    width: 120px;
+    z-index: 1000;
+  }
+
+  .fl-fl:hover {
+    left: 0;
+  }
+
+    .float-fb{
+      top: 215px;
+    }
+
+    .float-ig{
+      top: 270px;
+    }
+
+      .float-social {
+        color: white;
+        width: 1.5rem;
+        height: 1.5rem;
+            
+      }
+
+      .float-social:hover {
+        color: #6726c2;
+      }
+
+  .carousel-control-prev:hover {
+    background: linear-gradient(to right, #000000 0%, #000000c7 25%, #1f1f1f00 100%);
+  }
+
+  .carousel-control-next:hover {
+    background: linear-gradient(to left, #000000 0%, #000000c7 25%, #1f1f1f00 100%);
+  }
 
 .bg-img {
   width: 100vw;
@@ -59,21 +154,50 @@ ul, li {
   background-size: cover;
 }
 
+@media (max-width: 768px) {
+    .navbar-toggle {
+      display: block;
+      float: right;
+      margin: 10px 15px 8px 0;
+      position: relative;
+      visibility: visible;
+      background-color: #fff;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      width: 22px;
+      height: 2px;
+    }
+}
+
+article {
+  position: absolute;
+  z-index: 12;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+
 /* Main */
 
 
 
 /* FOOTER */
-
-#footer {
+footer {
+  padding: 0;
+}
+#footer-block {
   background-color:#2A2A2A;
   color: #707070;
-  width: 100vw;
 }
   .row {
-    line-height: 2.8;
+    line-height: 2.9;
   }
 
+  #me{
+    color: #707070;
+  }
   .social{
     color: white;
     width: 2rem;
@@ -85,7 +209,7 @@ ul, li {
   }
 
   .social:hover{
-    color: #864ada;
+    color: #6726c2;
     width: 3rem;
     height: 3rem;
   }
@@ -94,14 +218,16 @@ ul, li {
   #logo {
     font-family: 'Corbel';
     font-size: 2.2rem;
+    letter-spacing: 0.5rem;
     text-transform: uppercase;
     color: white;
+    padding-right: 15px;
     transition: font-size .2s ease, font-family .2s ease;
     transition-delay: font-size 0.4s, font-family 0.4s;
   }
 
     #logo:hover {
-      color: #864ada;
+      color: #6726c2;
       font-size: 2.6rem;
       font-family: "Pacifica";
     }
@@ -111,15 +237,16 @@ ul, li {
     }
 
     #copyr-text > a:hover {
-      color: #864ada;
+      color: #6726c2;
     }
 
   @media (max-width: 768px) {
+
+
     .container-fluid {
-      text-align: center;
+      width: 100vw;
       padding: 0;
-      overflow-x: none;
-      max-width: 100vw;
+      text-align: center;
     }
 
     #logo {
