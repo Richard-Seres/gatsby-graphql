@@ -1,0 +1,47 @@
+/* ==================================================*/
+/*                   HEADER - MAIN                   */
+/* ==================================================*/  
+.header{
+  position: absolute;
+  width: 100%;
+}
+  .navbar {
+    background: linear-gradient(to bottom, #000000 0%, #000000c7 25%, #1f1f1f00 100%);
+    font-size: 1.25rem;
+    position: fixed;
+    top: 0;
+    z-index: 1030;
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+    .navbarBrand{
+      font-size: 1.5rem;
+    }
+
+
+     .itemSep {
+      color: white;
+      display: inline;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    
+/*==================================================*/
+/*                 MEDIA QUERIES                    */
+/*==================================================*/
+
+
+  @media (max-width: 426px){
+    .navbar{ 
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .itemSep { 
+      display: none;
+    }
+  }

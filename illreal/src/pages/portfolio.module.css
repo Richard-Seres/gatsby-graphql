@@ -1,0 +1,79 @@
+.portfolio {
+  height: auto;
+  width: 100%;
+}
+
+.portfolioPage {
+  height: 100vh;
+}
+
+.portfolioTxt h1{
+    text-align: center;
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    font-family: "Pacifica";
+    text-transform: uppercase;
+}
+
+.imgBox {
+  width: 100%;
+  margin: 0 3% 3rem 0;
+}
+
+figure {
+  position: relative;
+  max-width: 480px;
+  width: 100%;
+}
+
+  figure img{
+    max-width: 100%;
+    max-height: 320px;
+    border-radius: 15px;
+    transition: all 0.8s ease;
+  }
+
+  figcaption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 5px 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.8s ease;
+  }
+
+  figure:hover figcaption{
+    visibility: visible;
+    opacity: 1;
+  }
+
+  figure:hover img{
+    filter: grayscale(50%);
+  }
+
+  figcaption h3, figcaption h4 {
+    margin: 0;
+    color: #fff;
+    text-align: left;
+    font-family: "Pacifica";
+    font-size: 1.1em;
+    font-weight: normal;
+  }
+
+  figcaption h4 {
+    font-size: .7em;
+    text-transform: uppercase;
+  }
+
+
+  figure a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
