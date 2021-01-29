@@ -43,7 +43,7 @@ footer {
     text-transform: uppercase;
     color: white;
     transition: font-size .2s ease, font-family .2s ease;
-    transition-delay: font-size 0.4s, font-family 0.4s;
+    transition-delay: font-size .4s, font-family .8s;
   }
 
     .logo:hover {

@@ -58,10 +58,6 @@ export default function Home() {
       </article>
 
       {/* 3.2. Carousel */ }
-
-
-
-
       <div>
         <Carousel className={styles.carousel}>
           <Carousel.Item> {/* Urban */}

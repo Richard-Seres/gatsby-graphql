@@ -48,7 +48,7 @@ export default function FooterMain() {
             </div>
 
             {/* 1.5. Copyright */}
-            <div className="container">
+            <div className="container" style={{paddingLeft: 0}}>
               <p className={styles.copyRText}>Illreal photography &copy; // Created by 
                 <a href="#" className={styles.me}> Richard Seres</a> 2021
               </p>
