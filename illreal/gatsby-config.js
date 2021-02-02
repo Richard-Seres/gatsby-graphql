@@ -38,23 +38,15 @@ module.exports = {
      *
      * See https://www.gatsbyjs.org/packages/gatsby-source-filesystem/ for more info
      */
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `assets`,
-        path: `${__dirname}/content/assets`,
-      },
-    },
-
+   
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/images/`,
       },
     },
 
-    
 
     /**
      * The following two plugins are required if you want to use Gatsby image
@@ -63,6 +55,8 @@ module.exports = {
      */
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-theme-gallery`,
+
 
     {
       // See https://www.gatsbyjs.com/plugins/gatsby-plugin-manifest/?=gatsby-plugin-manifest

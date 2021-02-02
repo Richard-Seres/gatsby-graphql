@@ -32,7 +32,7 @@ export default function HeaderMain () {
 
               {/* 1.3. Portfolio page */}
               <Nav.Link>
-                <Link to="/portfolio">
+                <Link to="/portfolio/portfolio">
                   Portfolio
                 </Link>
                 <p className={styles.itemSep}>

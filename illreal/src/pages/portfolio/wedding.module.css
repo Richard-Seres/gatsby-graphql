@@ -1,0 +1,57 @@
+.weddingTxt h1{
+  text-align: center;
+  color: white;
+  padding-top: 8rem;
+  padding-bottom: 3rem;
+  font-size: 3rem;
+  font-family: "Pacifica";
+  text-transform: uppercase;
+}
+
+
+
+@media (max-width: 2560px){
+  .weddingTxt h1{
+    padding-top: 10rem;
+    padding-bottom: 7rem;
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 1441px){
+  .weddingTxt h1{
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1024px){
+  .weddingTxt h1{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .weddingTxt h1 {
+    padding-top: 13rem;
+    padding-bottom: 13rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .weddingTxt h1 {
+    padding-top: 13rem;
+    padding-bottom: 13rem;
+  }
+}
+
+@media (max-width: 321px) {
+  .weddingTxt h1 {
+    padding-top: 13rem;
+    padding-bottom: 13rem;
+  }
+}
+
+
