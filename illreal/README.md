@@ -1,11 +1,30 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+
 <p align="center">
   <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+    <svg alt="Gatsby" src="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+      <rect fill="#ddd" width="200" height="200"/>
+      <text fill="rgba(0,0,0,0.5)" font-family="sans-serif" font-size="30" dy="10.5" font-weight="bold" x="50%" y="50%" text-anchor="middle">200×200</text>"</svg>
+  </a>
+</p>
+<p align="center">
+   <a href="https://www.gatsbyjs.com">
+    <svg alt="Gatsby" src="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+    <rect fill="#ddd" width="300" height="150"/>
+      <text fill="rgba(0,0,0,0.5)" font-family="sans-serif" font-size="30" dy="10.5" font-weight="bold" x="50%" y="50%" text-anchor="middle">150×150</text>"</svg>
+  </a>
+  <a href="https://www.gatsbyjs.com">
+    <svg alt="Gatsby" src="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+    <rect fill="#ddd" width="300" height="150"/>
+      <text fill="rgba(0,0,0,0.5)" font-family="sans-serif" font-size="30" dy="10.5" font-weight="bold" x="50%" y="50%" text-anchor="middle">150×150</text>"</svg>
+  </a>
+  <a href="https://www.gatsbyjs.com">
+    <svg alt="Gatsby" src="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+    <rect fill="#ddd" width="300" height="150"/>
+      <text fill="rgba(0,0,0,0.5)" font-family="sans-serif" font-size="30" dy="10.5" font-weight="bold" x="50%" y="50%" text-anchor="middle">150×150</text>"</svg>
   </a>
 </p>
 <h1 align="center">
-  Gatsby WordPress blog starter
+  Illreal Photography Portfolio Site
 </h1>
 
 Kick off your wordpress gatsby project with this blog boilerplate. This starter ships with the main Gatsby Wordpress configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
@@ -51,28 +70,9 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
 
-9.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
 
 10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
 11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
 12. **`README.md`**: A text file containing useful reference information about your project.
-
-
-
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-wordpress-blog)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-wordpress-blog)
-
-<!-- AUTO-GENERATED-CONTENT:END -->

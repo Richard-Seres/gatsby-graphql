@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
+import {Navbar, Nav, NavDropdown} from 'react-bootstrap'
 import styles from "./headerMain.module.css"
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
+
 
 {/*========================================
 1. Header
@@ -29,25 +29,31 @@ export default function HeaderMain () {
           </Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">
+              
+              {/* 1.3. Portfolio pages */}
+              <NavDropdown title={<p>Portfolio</p>} className={styles.dropDown}>
+                <NavDropdown.Item>
+                  <Link to="/portfolio">Portfolio</Link>
+                </NavDropdown.Item>
+                <NavDropdown.Divider className={styles.divider}/>
+                <NavDropdown.Item>
+                  <Link to="/portfolio/urban">Urban</Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link to="/portfolio/wedding">Wedding</Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link to="/portfolio/art">Art</Link>
+                </NavDropdown.Item>
+              </NavDropdown>
 
-              {/* 1.3. Portfolio page */}
+              {/* 1.4. Wedding page */}
               <Nav.Link>
-                <Link to="/portfolio/portfolio">
-                  Portfolio
-                </Link>
-                <p className={styles.itemSep}>
-                   // 
-                </p>
-              </Nav.Link>
-
-              {/* 1.4. Shop page */}
-              <Nav.Link>
+                <p className={styles.itemSep}> // </p>
                 <Link to="/wedding">
                   Wedding
                 </Link>
-                <p className={styles.itemSep}>
-                   // 
-                </p>
+                <p className={styles.itemSep}> // </p>
               </Nav.Link>
 
               {/* 1.5. Introduction page */}
