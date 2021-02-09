@@ -199,10 +199,17 @@ export default function Urban() {
         {/* 3.1. Urban heading */}
         <section className={styles.categoryTxt}>
           <h1>Urban</h1>
+          <div className={styles.arrow}>
+            <a href="#gallery">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </div>
         </section>
 
         {/* Gallery section */}
-        <section>
+        <section id="gallery">
 
           {/* Simple React Lightbox */}
           <SRLWrapper options={options}>

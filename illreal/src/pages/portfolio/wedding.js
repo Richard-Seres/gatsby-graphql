@@ -199,10 +199,17 @@ export default function Wedd() {
         {/* 3.1. Wedding heading */}
         <section className={styles.categoryTxt}>
           <h1>Wedding</h1>
+          <div className={styles.arrow}>
+            <a href="#gallery">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </div>
         </section>
 
         {/* Gallery section */}
-        <section>
+        <section id="gallery">
 
           {/* Simple React Lightbox */}
           <SRLWrapper options={options} >

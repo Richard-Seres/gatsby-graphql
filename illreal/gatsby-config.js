@@ -47,6 +47,14 @@ module.exports = {
       },
     },
 
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `assets`,
+        path: `${__dirname}/src/content/assets`,
+      },
+    },
+
 
     /**
      * The following two plugins are required if you want to use Gatsby image
@@ -55,6 +63,7 @@ module.exports = {
      */
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-netlify`,
 
 
     {
@@ -67,7 +76,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `src/content/assets/gatsby-icon.png`,
       },
     },
 
