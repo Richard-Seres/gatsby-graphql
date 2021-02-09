@@ -1,0 +1,125 @@
+/*===========================================*/
+/*                HOME PAGE                  */
+/*===========================================*/
+
+
+/* Portfolio categories Links (h1) */
+.indexArticle {
+  position: absolute;
+  z-index: 12;
+  top: 25%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.indexArticle > h1 {
+  filter: drop-shadow(.05em .05em #2A2A2A);
+}
+
+
+/* Carousel */
+.carousel .img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+  .carousel a:first-of-type:hover {
+    background: linear-gradient(to right, #000000 0%, #000000c7 25%, #1f1f1f00 100%);
+  }
+
+  .carousel a:last-of-type:hover {
+    background: linear-gradient(to left, #000000 0%, #000000c7 25%, #1f1f1f00 100%);
+  }
+
+  .carousel .carouselCaption > a {
+    position: relative;
+    bottom: 20px;
+    filter: drop-shadow(.05em .05em #2A2A2A);
+  }
+
+    .carousel .carouselCaption > a:hover {
+      background: transparent;
+      color: #6726c2;
+      transition: all 0.8s ease;
+    }
+
+/* Floating social links block */
+.flFl{
+  display: block;
+  background-color: black;
+  font: normal normal 10px Arial;
+  font-family: "Pacifica";
+  left: -87px;
+  letter-spacing: 3px;
+  line-height: 2rem;
+  padding: 6px;
+  position: fixed;
+  transition: all .25s ease;
+  text-align: right;
+  text-transform: uppercase;
+  width: 120px;
+  z-index: 1000;
+}
+
+  .flFl:hover {
+    left: 0;
+  }
+  
+
+  .floatFb{
+    top: 235px;
+  }
+
+  .floatIg{
+    top: 285px;
+  }
+
+    /* Social media icons */
+    .floatSocial {
+      color: white;
+      width: 1.5rem;
+      height: 1.5rem;    
+    }
+
+    .floatSocial:hover {
+      color: #6726c2;
+    } 
+
+
+
+    
+/*==================================================*/
+/*                 MEDIA QUERIES                    */
+/*==================================================*/
+
+@media (max-width: 768px) {
+
+  .flFl{
+    display: none;
+  }
+
+  .font {
+    font-size: 2rem;
+  }
+
+
+  .carousel a span {
+    display: none;
+  }
+}
+
+@media (max-width: 426px){
+  .font {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width:3840px){
+  main{
+    width:3840px;
+  }
+}
+
+
