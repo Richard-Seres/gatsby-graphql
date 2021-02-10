@@ -7,13 +7,13 @@
 .indexArticle {
   position: absolute;
   z-index: 12;
-  top: 25%;
+  top: 30%;
   left: 0;
   width: 100%;
   text-align: center;
 }
 
-.indexArticle > h1 {
+.font {
   filter: drop-shadow(.05em .05em #2A2A2A);
 }
 

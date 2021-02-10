@@ -316,7 +316,7 @@ export default function Urban() {
 
               {/* Row 8 - IMG 11 & 12 */}  {/* PB-5  !!! */}
               <div className="row mx-auto mx-md-0"> 
-                <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 pb-5 px-0 pl-lg-0 pr-lg-1" style={{maxHeight: "100vh"}} >
+                <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 pb-lg-5 pb-md-1 pb-1 px-0 pl-lg-0 pr-lg-1" style={{maxHeight: "100vh"}} >
                   <a href={data.imgEleven.childImageSharp.fluid.src}>
                     <div className="position-relative overflow-hidden" style={{height: "100%"}}>
                       <Img fluid={data.imgEleven.childImageSharp.fluid} className={styles.catImg} style={{height: "100%"}} />

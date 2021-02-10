@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import styles from "./footerMain.module.css"
+import styles from "../../styles/footerMain.module.css"
 import { FaFacebookSquare } from "@react-icons/all-files/fa/FaFacebookSquare"
 import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram"
 

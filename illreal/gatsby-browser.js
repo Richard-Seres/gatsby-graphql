@@ -5,12 +5,12 @@ import "typeface-merriweather"
 import "./src/normalize.css"
 // custom CSS styles
 import "./src/style.css"
-import "./src/styles/global.css"
+import "./src/styles/layout.css"
+import "./src/styles/typography.css"
 import "./src/styles/index.module.css"
 import "./src/styles/portfolio.module.css"
-// components
-import "./src/components/headerMain/headerMain.module.css"
-import "./src/components/footerMain/footerMain.module.css"
+import "./src/styles/headerMain.module.css"
+import "./src/styles/footerMain.module.css"
 // bootstrap
 import "bootstrap/dist/css/bootstrap.min.css"
 

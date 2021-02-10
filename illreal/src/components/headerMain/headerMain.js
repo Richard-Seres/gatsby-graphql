@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import {Navbar, Nav, NavDropdown} from 'react-bootstrap'
-import styles from "./headerMain.module.css"
+import styles from "../../styles/headerMain.module.css"
 
 
 {/*========================================
