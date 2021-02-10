@@ -38,7 +38,7 @@ export default function Wedd() {
           }
         }
         imgTwo: file(
-          relativePath: { eq: "urban/img2.jpg" }
+          relativePath: { eq: "wedding/img2.jpg" }
         ) {
           childImageSharp {      
             fluid(quality: 100, maxWidth: 3840) {
@@ -48,7 +48,7 @@ export default function Wedd() {
           }
         }
         imgThree: file(
-          relativePath: { eq: "urban/img3.jpg" }
+          relativePath: { eq: "wedding/img3.jpg" }
         ) {
           childImageSharp {      
             fluid(quality: 100, maxWidth: 3840) {
@@ -58,7 +58,7 @@ export default function Wedd() {
           }
         }
         imgFour: file(
-          relativePath: { eq: "urban/img4.jpg" }
+          relativePath: { eq: "wedding/img4.jpg" }
         ) {
           childImageSharp {      
             fluid(quality: 100, maxWidth: 3840) {
@@ -68,7 +68,7 @@ export default function Wedd() {
           }
         }
         imgFive: file(
-          relativePath: { eq: "urban/img5.jpg" }
+          relativePath: { eq: "wedding/img5.jpg" }
         ) {
           childImageSharp {      
             fluid(quality: 100, maxWidth: 3840) {
@@ -78,7 +78,7 @@ export default function Wedd() {
           }
         }
         imgSix: file(
-          relativePath: { eq: "urban/img6.jpg" }
+          relativePath: { eq: "wedding/img6.jpg" }
         ) {
           childImageSharp {      
             fluid(quality: 100, maxWidth: 3840) {
@@ -88,7 +88,7 @@ export default function Wedd() {
           }
         }
         imgSeven: file(
-          relativePath: { eq: "urban/img7.jpg" }
+          relativePath: { eq: "wedding/img7.jpg" }
         ) {
           childImageSharp {      
             fluid(quality: 100, maxWidth: 3840) {
@@ -98,7 +98,7 @@ export default function Wedd() {
           }
         }
         imgEight: file(
-          relativePath: { eq: "urban/img8.jpg" }
+          relativePath: { eq: "wedding/img8.jpg" }
         ) {
           childImageSharp {      
             fluid(quality: 100, maxWidth: 3840) {
@@ -108,7 +108,7 @@ export default function Wedd() {
           }
         }
         imgNine: file(
-          relativePath: { eq: "urban/img9.jpg" }
+          relativePath: { eq: "wedding/img9.jpg" }
         ) {
           childImageSharp {      
             fluid(quality: 100, maxWidth: 3840) {
@@ -118,7 +118,7 @@ export default function Wedd() {
           }
         }
         imgTen: file(
-          relativePath: { eq: "urban/img10.jpg" }
+          relativePath: { eq: "wedding/img10.jpg" }
         ) {
           childImageSharp {      
             fluid(quality: 100, maxWidth: 3840) {
@@ -128,57 +128,7 @@ export default function Wedd() {
           }
         }
         imgEleven: file(
-          relativePath: { eq: "urban/img11.jpg" }
-        ) {
-          childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
-              ...GatsbyImageSharpFluid
-              src
-            }
-          }
-        }
-        imgTwelve: file(
-          relativePath: { eq: "urban/img12.jpg" }
-        ) {
-          childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
-              ...GatsbyImageSharpFluid
-              src
-            }
-          }
-        }
-        imgThirteen: file(
-          relativePath: { eq: "urban/img13.jpg" }
-        ) {
-          childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
-              ...GatsbyImageSharpFluid
-              src
-            }
-          }
-        }
-        imgFourteen: file(
-          relativePath: { eq: "urban/img14.jpg" }
-        ) {
-          childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
-              ...GatsbyImageSharpFluid
-              src
-            }
-          }
-        }
-        imgFithteen: file(
-          relativePath: { eq: "urban/img15.jpg" }
-        ) {
-          childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
-              ...GatsbyImageSharpFluid
-              src
-            }
-          }
-        }
-        imgSixteen: file(
-          relativePath: { eq: "urban/img16.jpg" }
+          relativePath: { eq: "wedding/img11.jpg" }
         ) {
           childImageSharp {      
             fluid(quality: 100, maxWidth: 3840) {
@@ -303,70 +253,19 @@ export default function Wedd() {
                 </div>
               </div>
 
-              {/* Row 7 - IMG 10 */}
+              {/* Row 7 - IMG 10 & 11 */}
               <div className="row mx-auto mx-md-0">
-                <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 pb-1 px-0" style={{maxHeight: "100vh"}}>
+                <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 pb-lg-5 pb-md-1 pb-1 px-0 pl-lg-0 pr-lg-1" style={{maxHeight: "100vh"}}>
                   <a href={data.imgTen.childImageSharp.fluid.src}>
                     <div className="position-relative overflow-hidden" style={{height: "100%"}}>
                       <Img fluid={data.imgTen.childImageSharp.fluid} className={styles.catImg} style={{height: "100%"}} />
                     </div>
                   </a>
                 </div>
-              </div>
-
-              {/* Row 8 - IMG 11 & 12 */}  {/* PB-5  !!! */}
-              <div className="row mx-auto mx-md-0"> 
-                <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 pb-5 px-0 pl-lg-0 pr-lg-1" style={{maxHeight: "100vh"}} >
+                <div className="col-lg-8 col-md-12 col-sm-12 col-xs-12 pb-5 px-0 pl-lg-0 pr-lg-0" style={{maxHeight: "100vh"}} >
                   <a href={data.imgEleven.childImageSharp.fluid.src}>
                     <div className="position-relative overflow-hidden" style={{height: "100%"}}>
                       <Img fluid={data.imgEleven.childImageSharp.fluid} className={styles.catImg} style={{height: "100%"}} />
-                    </div>
-                  </a>
-                </div>
-                <div className="col-lg-8 col-md-12 col-sm-12 col-xs-12 pb-5 px-0 pl-lg-0 pr-lg-0" style={{maxHeight: "100vh"}} >
-                  <a href={data.imgTwelve.childImageSharp.fluid.src}>
-                    <div className="position-relative overflow-hidden" style={{height: "100%"}}>
-                      <Img fluid={data.imgTwelve.childImageSharp.fluid} className={styles.catImg} style={{height: "100%"}} />
-                    </div>
-                  </a>
-                </div>
-              </div>
-
-              {/* Row 9 - IMG 13 */}
-              <div className="row mx-auto mx-md-0">
-                <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 pb-1 px-0" style={{maxHeight: "100vh"}}>
-                  <a href={data.imgThirteen.childImageSharp.fluid.src}>
-                    <div className="position-relative overflow-hidden" style={{height: "100%"}}>
-                      <Img fluid={data.imgThirteen.childImageSharp.fluid} className={styles.catImg} style={{height: "100%"}} />
-                    </div>
-                  </a>
-                </div>
-              </div>
-
-              {/* Row 10 - IMG 14 & 15 */}
-              <div className="row mx-auto mx-md-0"> 
-                <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 pb-1 px-0 pl-lg-0 pr-lg-1" style={{maxHeight: "100vh"}} >
-                  <a href={data.imgFourteen.childImageSharp.fluid.src}>
-                    <div className="position-relative overflow-hidden" style={{height: "100%"}}>
-                      <Img fluid={data.imgFourteen.childImageSharp.fluid} className={styles.catImg} style={{height: "100%"}} />
-                    </div>
-                  </a>
-                </div>
-                <div className="col-lg-8 col-md-12 col-sm-12 col-xs-12 pb-1 px-0 pl-lg-0 pr-lg-0" style={{maxHeight: "100vh"}} >
-                  <a href={data.imgFithteen.childImageSharp.fluid.src}>
-                    <div className="position-relative overflow-hidden" style={{height: "100%"}}>
-                      <Img fluid={data.imgFithteen.childImageSharp.fluid} className={styles.catImg} style={{height: "100%"}} />
-                    </div>
-                  </a>
-                </div>
-              </div>
-
-              {/* Row 11 - IMG 16 */}
-              <div className="row mx-auto mx-md-0">
-                <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 pb-5 px-0" style={{maxHeight: "100vh"}}>
-                  <a href={data.imgSixteen.childImageSharp.fluid.src}>
-                    <div className="position-relative overflow-hidden" style={{height: "100%"}}>
-                      <Img fluid={data.imgSixteen.childImageSharp.fluid} className={styles.catImg} style={{height: "100%"}} />
                     </div>
                   </a>
                 </div>
