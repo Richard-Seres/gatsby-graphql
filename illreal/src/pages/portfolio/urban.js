@@ -31,7 +31,7 @@ export default function Urban() {
       query {
         imgOne: file(relativePath: {eq: "urban/img1.jpg"}) {
           childImageSharp {
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -41,7 +41,7 @@ export default function Urban() {
           relativePath: { eq: "urban/img2.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -51,7 +51,7 @@ export default function Urban() {
           relativePath: { eq: "urban/img3.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -61,7 +61,7 @@ export default function Urban() {
           relativePath: { eq: "urban/img4.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -71,7 +71,7 @@ export default function Urban() {
           relativePath: { eq: "urban/img5.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -81,7 +81,7 @@ export default function Urban() {
           relativePath: { eq: "urban/img6.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -91,7 +91,7 @@ export default function Urban() {
           relativePath: { eq: "urban/img7.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -101,7 +101,7 @@ export default function Urban() {
           relativePath: { eq: "urban/img8.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -111,7 +111,7 @@ export default function Urban() {
           relativePath: { eq: "urban/img9.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -121,7 +121,7 @@ export default function Urban() {
           relativePath: { eq: "urban/img10.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -131,7 +131,7 @@ export default function Urban() {
           relativePath: { eq: "urban/img11.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -141,7 +141,7 @@ export default function Urban() {
           relativePath: { eq: "urban/img12.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -151,7 +151,7 @@ export default function Urban() {
           relativePath: { eq: "urban/img13.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -161,7 +161,7 @@ export default function Urban() {
           relativePath: { eq: "urban/img14.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -171,7 +171,7 @@ export default function Urban() {
           relativePath: { eq: "urban/img15.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -181,7 +181,7 @@ export default function Urban() {
           relativePath: { eq: "urban/img16.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }

@@ -34,7 +34,7 @@ export default function Home() {
       query {
         imgOne: file(relativePath: {eq: "urban/img1.jpg"}) {
           childImageSharp {
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -42,7 +42,7 @@ export default function Home() {
         }
         imgTwo: file(relativePath: {eq: "wedding/img1.jpg"}) {
           childImageSharp {
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -50,7 +50,7 @@ export default function Home() {
         }
         imgThree: file(relativePath: {eq: "art/img1.jpg"}) {
           childImageSharp {
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
