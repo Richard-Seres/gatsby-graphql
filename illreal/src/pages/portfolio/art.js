@@ -30,7 +30,7 @@ export default function Art() {
       query {
         imgOne: file(relativePath: {eq: "art/img1.jpg"}) {
           childImageSharp {
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -40,7 +40,7 @@ export default function Art() {
           relativePath: { eq: "art/img2.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -50,7 +50,7 @@ export default function Art() {
           relativePath: { eq: "art/img3.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -60,7 +60,7 @@ export default function Art() {
           relativePath: { eq: "art/img4.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -70,7 +70,7 @@ export default function Art() {
           relativePath: { eq: "art/img5.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -80,7 +80,7 @@ export default function Art() {
           relativePath: { eq: "art/img6.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -90,7 +90,7 @@ export default function Art() {
           relativePath: { eq: "art/img7.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -100,7 +100,7 @@ export default function Art() {
           relativePath: { eq: "art/img8.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -110,7 +110,7 @@ export default function Art() {
           relativePath: { eq: "art/img9.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -120,7 +120,7 @@ export default function Art() {
           relativePath: { eq: "art/img10.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -130,7 +130,7 @@ export default function Art() {
           relativePath: { eq: "art/img11.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -140,7 +140,7 @@ export default function Art() {
           relativePath: { eq: "art/img12.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -150,7 +150,7 @@ export default function Art() {
           relativePath: { eq: "art/img13.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -160,7 +160,7 @@ export default function Art() {
           relativePath: { eq: "art/img14.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -170,7 +170,7 @@ export default function Art() {
           relativePath: { eq: "art/img15.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -180,7 +180,7 @@ export default function Art() {
           relativePath: { eq: "art/img16.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }

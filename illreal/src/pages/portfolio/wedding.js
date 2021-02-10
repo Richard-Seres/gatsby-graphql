@@ -31,7 +31,7 @@ export default function Wedd() {
       query {
         imgOne: file(relativePath: {eq: "wedding/img1.jpg"}) {
           childImageSharp {
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -41,7 +41,7 @@ export default function Wedd() {
           relativePath: { eq: "wedding/img2.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -51,7 +51,7 @@ export default function Wedd() {
           relativePath: { eq: "wedding/img3.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -61,7 +61,7 @@ export default function Wedd() {
           relativePath: { eq: "wedding/img4.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -71,7 +71,7 @@ export default function Wedd() {
           relativePath: { eq: "wedding/img5.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -81,7 +81,7 @@ export default function Wedd() {
           relativePath: { eq: "wedding/img6.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -91,7 +91,7 @@ export default function Wedd() {
           relativePath: { eq: "wedding/img7.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -101,7 +101,7 @@ export default function Wedd() {
           relativePath: { eq: "wedding/img8.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -111,7 +111,7 @@ export default function Wedd() {
           relativePath: { eq: "wedding/img9.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -121,7 +121,7 @@ export default function Wedd() {
           relativePath: { eq: "wedding/img10.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
@@ -131,7 +131,7 @@ export default function Wedd() {
           relativePath: { eq: "wedding/img11.jpg" }
         ) {
           childImageSharp {      
-            fluid(quality: 100, maxWidth: 3840) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid
               src
             }
