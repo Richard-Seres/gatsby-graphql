@@ -191,11 +191,11 @@ export default function Art() {
 
 
   return(
-    <Layout> {/* 2. Header & Footer component */}
-      {/* Art section */}
+    <Layout> {/* Header & Footer component */}
+      {/* Art main section */}
       <section className={styles.portfolio}>      
 
-        {/* 3.1. Art heading */}
+        {/* Art heading */}
         <section className={styles.categoryTxt}>
           <h1>Art</h1>
           <div className={styles.arrow}>
@@ -376,12 +376,12 @@ export default function Art() {
         </section> {/* Gallery */}
 
 
-        {/* 3.2. Portfolio categories */}
+        {/* Portfolio categories */}
         <section>
           <div className="container d-flex flex-row justify-content-center">
             <div className="row d-flex flex-row justify-content-center">
 
-              {/* 3.3. Urban */}
+              {/* Urban */}
               <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div className={styles.imgBox}>
                   <figure>
@@ -397,7 +397,7 @@ export default function Art() {
                 </div>
               </div>
 
-              {/* 3.4. Wedding */}
+              {/* Wedding */}
               <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div className={styles.imgBox}>
                   <figure>
@@ -417,7 +417,7 @@ export default function Art() {
           </div> {/* Container */}
         </section> {/* Portfolio categories */}
             
-      </section> {/* Art section */}
+      </section> {/* Art main section */}
     </Layout>
   )
 } 

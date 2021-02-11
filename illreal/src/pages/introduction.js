@@ -2,11 +2,12 @@ import React from "react"
 import Layout from "../components/layout"
 import styles from "../styles/introduction.module.css"
 
+// Introduction page function //
 export default function Introduction() {
   return (
-    <Layout>
+    <Layout> {/* Header & Footer components */}
 
-      {/* Introduction page */}
+      {/* Introduction main section */}
       <section className={styles.introPage}>
 
         {/* Introduction heading */}
@@ -21,7 +22,7 @@ export default function Introduction() {
           <section>
             <div className="container d-flex flex-row justify-content-center pb-4" style={{width: "90%", maxHeight: "70vh"}}>
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" width="644" height="362" src="https://www.youtube.com/embed/LSYbc5OdJ_g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                <iframe class="embed-responsive-item" width="644" height="362" src="https://www.youtube.com/embed/LSYbc5OdJ_g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" title="Introduction">
                 </iframe>
               </div>
             </div>

@@ -23,7 +23,7 @@ const options = {
   }
 }
 
-// Wedding page function //
+// Wedding(portfolio) page function //
 export default function Wedd() {
   
       // GraphQl queries //
@@ -142,11 +142,11 @@ export default function Wedd() {
 
 
   return(
-    <Layout> {/* 2. Header & Footer component */}
-      {/* Wedding section */}
+    <Layout> {/* Header & Footer component */}
+      {/* Wedding (portfolio) main section */}
       <section className={styles.portfolio}>      
 
-        {/* 3.1. Wedding heading */}
+        {/* Wedding heading */}
         <section className={styles.categoryTxt}>
           <h1>Wedding</h1>
           <div className={styles.arrow}>
@@ -276,12 +276,12 @@ export default function Wedd() {
         </section> {/* Gallery */}
 
 
-        {/* 3.2. Portfolio categories */}
+        {/* Portfolio categories */}
         <section> 
           <div className="container d-flex flex-row justify-content-center">
             <div className="row d-flex flex-row justify-content-center">
 
-              {/* 3.3. Urban */}
+              {/* Urban */}
               <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div className={styles.imgBox}>
                   <figure>
@@ -297,7 +297,7 @@ export default function Wedd() {
                 </div>
               </div>
 
-              {/* 3.5. Art */}
+              {/* Art */}
               <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div className={styles.imgBox}>
                   <figure>
@@ -317,7 +317,7 @@ export default function Wedd() {
           </div> {/* Container */}
         </section> {/* Portfolio categories */}
             
-      </section> {/* Wedding section */}
+      </section> {/* Wedding(portfolio) main section */}
     </Layout>
   )
 } 

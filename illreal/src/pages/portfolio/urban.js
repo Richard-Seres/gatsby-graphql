@@ -192,11 +192,11 @@ export default function Urban() {
 
 
   return(
-    <Layout> {/* 2. Header & Footer component */}
-      {/* Urban section */}
+    <Layout> {/* Header & Footer component */}
+      {/* Urban main section */}
       <section className={styles.portfolio}>      
 
-        {/* 3.1. Urban heading */}
+        {/* Urban heading */}
         <section className={styles.categoryTxt}>
           <h1>Urban</h1>
           <div className={styles.arrow}>
@@ -376,11 +376,12 @@ export default function Urban() {
           </SRLWrapper>
         </section> {/* Gallery */}
 
+        {/* Portfolio content */}
         <section>
           <div className="container d-flex flex-row justify-content-center">
             <div className="row d-flex flex-row justify-content-center">
 
-              {/* 3.4. Wedding */}
+              {/* Wedding */}
               <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div className={styles.imgBox}>
                   <figure>
@@ -396,7 +397,7 @@ export default function Urban() {
                 </div>
               </div>
 
-              {/* 3.5. Art */}
+              {/* Art */}
               <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div className={styles.imgBox}>
                   <figure>
@@ -414,9 +415,9 @@ export default function Urban() {
 
             </div> {/* Row */}
           </div> {/* Container */}
-        </section>
+        </section> {/* Portfolio content */}
             
-      </section> {/* Urban section */}
+      </section> {/* Urban main section */}
     </Layout>
   )
 } 
