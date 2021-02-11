@@ -110,12 +110,12 @@ export default function Home() {
         <section className="float-sm-right">
           {/* 3.7. Facebook */}
           <div className={`${styles.flFl} ${styles.floatFb}`}>
-            <a href="https://www.facebook.com/IllrealPresents/posts/3597922013602149" target="_blank"><p>Like me!</p> <FaFacebookSquare className={styles.floatSocial}/>
+            <a href="https://www.facebook.com/IllrealPresents/posts/3597922013602149" target="_blank">Like me! <FaFacebookSquare className={styles.floatSocial}/>
             </a>
           </div>
           {/* 3.8. Instagram */}
           <div className={`${styles.flFl} ${styles.floatIg}`}>
-            <a href="https://www.instagram.com/illrealpresents/?hl=hu" target="_blank"><p>Follow me!</p><FaInstagram className={styles.floatSocial}/>
+            <a href="https://www.instagram.com/illrealpresents/?hl=hu" target="_blank">Follow me!<FaInstagram className={styles.floatSocial}/>
             </a>
           </div>
         </section>

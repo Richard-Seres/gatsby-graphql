@@ -1,0 +1,44 @@
+.introPage {
+  height: auto;
+  width: 100%;
+}
+
+/* heading */
+.introH h1{
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+blockquote {
+  padding-bottom: 3rem;
+  text-align: center;
+  color: white;
+  border-left: none;
+}
+
+/* introduction text */
+.introTxt{
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 1024px){
+  .introH h1 {
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 767px){
+  .introH h1 {
+    font-size: 1.3rem;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+  }
+
+  blockquote{
+      padding-bottom: 5rem;
+      font-size: 1rem;
+  }
+}
