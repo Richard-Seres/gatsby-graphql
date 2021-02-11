@@ -24,10 +24,19 @@ main {
   position: absolute;
 }
 
+body h1, h2, h3, h4, h5, h6 {
+  font-family: "Pacifica";
+  color: #FFFFFF;
+}
 
+body h5, h6 {
+  display: inline;
+  color: #FFFFFF;
+}
 
 body p {
   display: inline;
+  font-family: "Corbel";
 }
 
 body a {

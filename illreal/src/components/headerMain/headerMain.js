@@ -31,11 +31,10 @@ export default function HeaderMain () {
             <Nav className="ml-auto">
               
               {/* 1.3. Portfolio pages */}
-              <NavDropdown title={<p>Portfolio</p>} className={styles.dropDown}>
+              <NavDropdown title={<h5>Portfolio</h5>} className={styles.dropDown}>
                 <NavDropdown.Item>
                   <Link to="/portfolio">Portfolio</Link>
                 </NavDropdown.Item>
-                <NavDropdown.Divider className={styles.divider}/>
                 <NavDropdown.Item>
                   <Link to="/portfolio/urban">Urban</Link>
                 </NavDropdown.Item>

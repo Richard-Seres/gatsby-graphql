@@ -30,28 +30,28 @@ export default function FooterMain() {
 
               {/* 1.2. Shop link */}
               <Link to="/wedding">
-                <p>Wedding</p>
+                <h6>Wedding</h6>
               </Link>
-              <p> // </p>
+              <h6> // </h6>
 
               {/* 1.3. Mailto link */}
               <a href="mailto:illreal@gmail.com">
-                <p>Contact</p>
+                <h6>Contact</h6>
               </a>
-              <p> // </p>
+              <h6> // </h6>
 
               {/* 1.4. Impressum link */}
               <Link to="/impressum">
-                <p>Impressum</p>
+                <h6>Impressum</h6>
               </Link>
 
             </div>
 
             {/* 1.5. Copyright */}
             <div className="container" style={{paddingLeft: 0}}>
-              <p className={styles.copyRText}>Illreal photography &copy; // Created by 
+              <h6 className={styles.copyRText}>Illreal photography &copy; // Created by 
                 <a href="#" className={styles.me}> Richard Seres</a> 2021
-              </p>
+              </h6>
             </div>
           </div>
           

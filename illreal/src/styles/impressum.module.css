@@ -1,0 +1,35 @@
+.impPage {
+  height: auto;
+  width: 100%;
+}
+
+p {
+  color: white;
+  font-family: "Corbel";
+}
+
+/* heading */
+.impH h1{
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 1024px){
+  .impH h1 {
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 767px){
+  .impH h1 {
+    font-size: 1.3rem;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+  }
+
+  .CRtitle h2 {
+    text-align: center;
+  }
+
+}

@@ -6,7 +6,6 @@
 footer {
   padding: 0;
   background-color:#2A2A2A;
-  color: #707070;
   line-height: 2.9;
   width: 100%;
 }
@@ -63,6 +62,10 @@ footer {
 
       footer{
         text-align: center;
+      }
+
+      .social{
+        margin-top: 1rem;
       }
 
       .logo {

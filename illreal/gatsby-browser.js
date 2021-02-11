@@ -9,6 +9,8 @@ import "./src/styles/layout.css"
 import "./src/styles/typography.css"
 import "./src/styles/index.module.css"
 import "./src/styles/portfolio.module.css"
+import "./src/styles/introduction.module.css"
+import "./src/styles/impressum.module.css"
 import "./src/styles/headerMain.module.css"
 import "./src/styles/footerMain.module.css"
 // bootstrap
