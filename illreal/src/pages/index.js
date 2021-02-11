@@ -1,33 +1,13 @@
-import React from 'react'
-import { Carousel } from 'react-bootstrap'
-import { Link, useStaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
-import Layout from '../components/layout'
-import styles from '../styles/index.module.css'
-import { FaFacebookSquare } from '@react-icons/all-files/fa/FaFacebookSquare'
-import { FaInstagram } from '@react-icons/all-files/fa/FaInstagram'
+import React from "react"
+import { Carousel } from "react-bootstrap"
+import { Link, useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
+import Layout from "../components/layout"
+import styles from "../styles/index.module.css"
+import { FaFacebookSquare } from "@react-icons/all-files/fa/FaFacebookSquare"
+import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram"
 
-{/* CONTENT */}
-{/* Illreal home page content */}
-{/*
-===================================================
-  1. Home page function
-===================================================
-  2. Header & Footer component
-===================================================
-  3. Portfolio links, Carousel & Social links
-    3.1. Portfolio categories
-    3.2. Carousel
-      3.3. Urban
-      3.4. Wedding
-      3.5. Art
-    3.6. Floating Social Media Bar
-      3.7. Facebook
-      3.8. Instagram
-===================================================
-*/}
-
-{/* 1. Home page function */}
+// Home page function //
 export default function Home() {
   // Query of carousel images
   const data = useStaticQuery(graphql`
@@ -61,13 +41,13 @@ export default function Home() {
     
   return (
   <main className={styles.index}>
-    {/* 2. Header & Footer components */}
+    {/* Header & Footer components */}
     <Layout>
     
-      {/* 3. Portfolio links, Carousel & Social */}
+      {/* Home main section */}
       <section>
 
-        {/* 3.1. Portfolio categories */ }
+        {/* Portfolio categories */ }
         <article className={styles.indexArticle}>
           <div className="container">
             <h1>
@@ -82,7 +62,7 @@ export default function Home() {
           </div>
         </article>
 
-        {/* 3.2. Carousel */ }
+        {/* Carousel */ }
         <section>
           <Carousel className={styles.carousel}>
             <Carousel.Item> {/* Urban */}
@@ -106,21 +86,21 @@ export default function Home() {
           </Carousel>
         </section>
 
-        {/* 3.6. Floating Social Media Bar */}
+        {/* Floating Social Media Bar */}
         <section className="float-sm-right">
-          {/* 3.7. Facebook */}
+          {/* Facebook */}
           <div className={`${styles.flFl} ${styles.floatFb}`}>
-            <a href="https://www.facebook.com/IllrealPresents/posts/3597922013602149" target="_blank">Like me! <FaFacebookSquare className={styles.floatSocial}/>
+            <a href="https://www.facebook.com/IllrealPresents/posts/3597922013602149" target="_blank"  rel="noreferrer">Like me! <FaFacebookSquare className={styles.floatSocial}/>
             </a>
           </div>
-          {/* 3.8. Instagram */}
+          {/* Instagram */}
           <div className={`${styles.flFl} ${styles.floatIg}`}>
-            <a href="https://www.instagram.com/illrealpresents/?hl=hu" target="_blank">Follow me!<FaInstagram className={styles.floatSocial}/>
+            <a href="https://www.instagram.com/illrealpresents/?hl=hu" target="_blank"  rel="noreferrer">Follow me!<FaInstagram className={styles.floatSocial}/>
             </a>
           </div>
         </section>
 
-      </section> {/* 3. Portfolio links, Carousel & Social */}
+      </section> {/* Home main section */}
 
     </Layout>
   </main>

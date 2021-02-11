@@ -56,11 +56,6 @@
       border: none;
     }
 
-    /* Dropdown divider (bootstrap style) */
-    .divider {
-      display: none;
-    }
-
     /* Dropdown divider border */
     .dropDown > div > a:first-child {
       padding-bottom: .5rem;

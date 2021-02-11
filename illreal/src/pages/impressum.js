@@ -2,10 +2,11 @@ import React from "react"
 import Layout from "../components/layout"
 import styles from "../styles/impressum.module.css"
 
+// Impressum page function //
 export default function Impressum() {
   return (
-    <Layout>
-      {/* Impressum page */}
+    <Layout> {/* Header & Footer components */}
+      {/* Impressum main section */}
       <section className={styles.impPage}>
 
         {/* Impressum heading */}
@@ -15,6 +16,7 @@ export default function Impressum() {
 
         {/* Impressum content */}
         <section>
+          {/* Information */}
           <section>
             <div className="container-fluid d-flex flex-column align-items-center pt-4 pb-4">
               <div className="row">
@@ -32,6 +34,7 @@ export default function Impressum() {
             </div>
           </section>
 
+          {/* Contact */}
           <section>
             <div className="container-fluid d-flex flex-column align-items-center pb-5">
               <div className="row">
@@ -48,9 +51,10 @@ export default function Impressum() {
             </div>
           </section>
 
+          {/* Copyright */}
           <section>
             <div className="container-fluid pb-5">
-              <div className="CRtitle">
+              <div className={styles.crTitle}>
                 <h2>Copyright</h2>
               </div>
               <div>
