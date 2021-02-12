@@ -1,11 +1,19 @@
-import React from "react"
+import React, {Component} from "react"
 import { Link } from "gatsby"
 import {Navbar, Nav, NavDropdown} from "react-bootstrap"
 import styles from "../../styles/headerMain.module.css"
 
 // HeaderMain function //
-export default function HeaderMain () {
+class HeaderMain extends Component {
+  state = {
+    visible: false
+  };
+  render () {
+/*     const divider = props.divider  //`${styles.wedItemSep}`;
+ *//*     if (this.state.visible) divider === 'wedItemSep'
+ */  
   return (
+
     <header className={styles.header}>
       {/* Collapsed navbar */}
       <Navbar collapseOnSelect expand="lg" fixed="top" className={styles.navbar}>
@@ -37,8 +45,12 @@ export default function HeaderMain () {
 
             {/* Wedding page */}
             <Nav.Link>
-              <p className={styles.itemSep}> &frasl; &frasl; </p>
-              <Link to="/wedding">
+            {this.state.visible ? <HeaderMain /> : null}
+
+              <p className={`${styles.itemSep} ${styles.wedItemSep}`}> &frasl; &frasl; </p>
+              <Link onClick={ () => {
+                this.setState({ visible: false})
+              }} to="/wedding">
                 Wedding
               </Link>
               <p className={styles.itemSep}> &frasl; &frasl; </p>
@@ -57,4 +69,7 @@ export default function HeaderMain () {
       </Navbar> {/* Collapsed navbar */}
     </header>
   )
+  }
 }
+
+export default HeaderMain;

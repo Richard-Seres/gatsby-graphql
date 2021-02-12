@@ -74,6 +74,14 @@
       margin-right: 20px;
     }
 
+    /* Wed */
+    .wedItemSep {
+      color: red;
+      display: inline;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
     
 /*==================================================*/
 /*                 MEDIA QUERIES                    */
