@@ -22,7 +22,7 @@
 </p>
 
 Welcome to my first project, a simple portfolio page for a freelancer photographer.  
-It was great to see the overall picture from design to code. Using the basics of ES6, React, Gatsby and GraphQL is challenging bit absolutely worth it. The hosting and a simple CI/CD pipeline is handled with Netlify which is connected to a GitHub repository. 
+It was great to see the overall picture from design to code. Using the basics of ES6, React, Gatsby and GraphQL is challenging, but absolutely worth it. The hosting and a simple CI/CD pipeline is handled with Netlify which is connected to a GitHub repository. 
 
 The main goal is to reach the point when it's connected to a CMS, like Wordpress or Netlify.
 So the admin can update and upload content directly from the content management system.
