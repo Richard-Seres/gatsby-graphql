@@ -35,18 +35,22 @@ export default function HeaderMain() {
               </NavDropdown.Item>
             </NavDropdown>
 
+            <span className={styles.itemSep}> &frasl; &frasl; </span>
+
             {/* Wedding page */}
             <Nav.Link>
-              <p className={styles.itemSep}> &frasl; &frasl; </p>
               <Link to="/wedding">
                 Wedding
               </Link>
-              <p className={styles.itemSep}> &frasl; &frasl; </p>
             </Nav.Link>
 
+            <span className={styles.itemSep}> &frasl; &frasl; </span>
+
             {/* Introduction page */}
-            <Nav.Link href="/introduction" style={{color: "white"}}>
-              Introduction
+            <Nav.Link>
+              <Link to="/introduction">
+                Introduction
+              </Link>
             </Nav.Link>
 
           </Nav>
