@@ -49,7 +49,6 @@ export default function HeaderMain() {
               <Link to="/introduction">
                 Introduction
               </Link>
-              <p className={styles.itemSep}> &frasl; &frasl; </p>
             </Nav.Link>
 
           </Nav>
