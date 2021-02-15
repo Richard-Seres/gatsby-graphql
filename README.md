@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="https://illreal.netlify.app/">
-    <img src="src/content/assets/illreal-logo.png" width="200" height="200" alt="illreal" />
+    <img src="illreal/src/content/assets/illreal-logo.png" width="200" height="200" alt="illreal" />
   </a>
 </p>
 
@@ -11,13 +11,13 @@
 
 <p align="center">
    <a href="https://www.gatsbyjs.com">
-    <img src="src/content/assets/gatsby-icon.png" width="100" height="100" alt="gatsby" />
+    <img src="illreal/src/content/assets/gatsby-icon.png" width="100" height="100" alt="gatsby" />
   </a>
   <a href="https://graphql.org/">
-    <img src="src/content/assets/graphql-logo.png" width="100" height="100" alt="graphql" />
+    <img src="illreal/src/content/assets/graphql-logo.png" width="100" height="100" alt="graphql" />
   </a>
   <a href="https://www.netlify.com/">
-    <img src="src/content/assets/netlify-logo.png" width="100" height="100" alt="netlify" />
+    <img src="illreal/src/content/assets/netlify-logo.png" width="100" height="100" alt="netlify" />
   </a>
 </p>
 
