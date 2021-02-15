@@ -4,7 +4,7 @@ import {Navbar, Nav, NavDropdown} from "react-bootstrap"
 import styles from "../../styles/headerMain.module.css"
 
 // HeaderMain function //
-export default function HeaderMain () {
+export default function HeaderMain() {
   return (
     <header className={styles.header}>
       {/* Collapsed navbar */}
@@ -49,6 +49,7 @@ export default function HeaderMain () {
               <Link to="/introduction">
                 Introduction
               </Link>
+              <p className={styles.itemSep}> &frasl; &frasl; </p>
             </Nav.Link>
 
           </Nav>
