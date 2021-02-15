@@ -45,10 +45,8 @@ export default function HeaderMain() {
             </Nav.Link>
 
             {/* Introduction page */}
-            <Nav.Link>
-              <Link to="/introduction">
-                Introduction
-              </Link>
+            <Nav.Link href="/introduction" style={{color: "white"}}>
+              Introduction
             </Nav.Link>
 
           </Nav>
