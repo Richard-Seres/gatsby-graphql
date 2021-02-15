@@ -1,13 +1,12 @@
-@import "../styles/typography.css";
-/*==================================================*/
-/*                    FOOTER                        */
-/*==================================================*/
-
 footer {
   padding: 0;
   background-color:#2A2A2A;
   line-height: 2.9;
   width: 100%;
+}
+
+.itemSep {
+  color: white;
 }
 
   /* Social media icons */

@@ -193,7 +193,7 @@ export default function Art() {
   return(
     <Layout> {/* Header & Footer component */}
       {/* Art main section */}
-      <section className={styles.portfolio}>      
+      <section>      
 
         {/* Art heading */}
         <section className={styles.categoryTxt}>

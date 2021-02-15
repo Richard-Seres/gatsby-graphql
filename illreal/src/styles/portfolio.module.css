@@ -1,22 +1,18 @@
-/*==========================================*/
-/*             PORTFOLIO PAGE               */
-/*==========================================*/
-
 .portfolioPage {
   height: auto;
   width: 100%;
+
 }
 
 
   /* heading */
   .portfolioTxt h1{
-    text-align: center;
-    color: white;
-    padding-top: 8rem;
-    padding-bottom: 3rem;
+    padding: 8rem 0 3rem 0;
     font-size: 3rem;
     font-family: "Pacifica";
     text-transform: uppercase;
+    text-align: center;
+    color: white;
   }
 
 
@@ -99,9 +95,8 @@
       height: 30px;
     }
 
-/*=========================================*/
-/*     Urban, Wedding, Art categories      */
-/*=========================================*/
+
+/*  Urban, Wedding, Art categories */
 .categoryTxt h1{
   text-align: center;
   color: white;

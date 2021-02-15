@@ -194,7 +194,7 @@ export default function Urban() {
   return(
     <Layout> {/* Header & Footer component */}
       {/* Urban main section */}
-      <section className={styles.portfolio}>      
+      <section>      
 
         {/* Urban heading */}
         <section className={styles.categoryTxt}>
