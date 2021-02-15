@@ -95,7 +95,7 @@ export default function Home() {
           </div>
           {/* Instagram */}
           <div className={`${styles.flFl} ${styles.floatIg}`}>
-            <a href="https://www.instagram.com/illrealpresents/?hl=hu" target="_blank"  rel="noreferrer">Follow me!<FaInstagram className={styles.floatSocial}/>
+            <a href="https://www.instagram.com/illrealpresents/?hl=hu" target="_blank"  rel="noreferrer">Follow me! <FaInstagram className={styles.floatSocial}/>
             </a>
           </div>
         </section>

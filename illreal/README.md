@@ -13,8 +13,8 @@
    <a href="https://www.gatsbyjs.com">
     <img src="src/content/assets/gatsby-icon.png" width="100" height="100" alt="gatsby" />
   </a>
-  <a href="hhttps://graphql.org/">
-    <img src="src/content/assets/graphql-logo2.png" width="100" height="100" alt="graphql" />
+  <a href="https://graphql.org/">
+    <img src="src/content/assets/graphql-logo.png" width="100" height="100" alt="graphql" />
   </a>
   <a href="https://www.netlify.com/">
     <img src="src/content/assets/netlify-logo.png" width="100" height="100" alt="netlify" />

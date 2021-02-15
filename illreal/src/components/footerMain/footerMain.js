@@ -11,29 +11,31 @@ export default function FooterMain() {
       {/* Footer content */}
       <div className="row" style={{marginLeft: 0}}>
         <div className="col-lg-4 col-md-4 order-2 col-sm-12 col-xs-12 order-md-1 my-auto">
-          <div className="container" style={{paddingLeft: 0}}>
+          <div className="container text-nowrap" style={{paddingLeft: 0}}>
 
             {/* Wedding link */}
             <Link to="/wedding">
-              <h6>Wedding</h6>
+              Wedding
             </Link>
-            <h6>&nbsp; &frasl; &frasl; &nbsp;</h6>
+
+            <span className={styles.itemSep}>&nbsp; &frasl; &frasl; &nbsp;</span>
 
             {/* Mailto link */}
             <a href="mailto:illreal@gmail.com">
-              <h6> Contact </h6>
+              Contact
             </a>
-            <h6>&nbsp; &frasl; &frasl; &nbsp;</h6>
+
+            <span className={styles.itemSep}>&nbsp; &frasl; &frasl; &nbsp;</span>
 
             {/* Impressum link */}
             <Link to="/impressum">
-              <h6>Impressum</h6>
+              Impressum
             </Link>
           </div>
 
           {/* Copyright */}
           <div className="container" style={{paddingLeft: 0}}>
-            <h6 className={styles.copyRText}>Illreal photography &copy; // Created by 
+            <h6 className={styles.copyRText}>Illreal photography &copy; &nbsp; &frasl; &frasl; &nbsp; Created by 
               <a href="https://github.com/Richard-Seres" className={styles.me}> Richard Seres</a> 2021
             </h6>
           </div>

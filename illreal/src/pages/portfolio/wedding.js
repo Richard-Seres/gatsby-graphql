@@ -144,7 +144,7 @@ export default function Wedd() {
   return(
     <Layout> {/* Header & Footer component */}
       {/* Wedding (portfolio) main section */}
-      <section className={styles.portfolio}>      
+      <section>      
 
         {/* Wedding heading */}
         <section className={styles.categoryTxt}>

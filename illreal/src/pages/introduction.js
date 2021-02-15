@@ -29,14 +29,14 @@ export default function Introduction() {
           </section>
 
           {/* Quote */}
-          <section id="blockquote">
+          <section>
             <blockquote>
-              Strong photos tell strong stories from the very first moment.
+            In photography there is a reality so subtle that it becomes more real than reality.
             </blockquote>
           </section>
 
           {/* Introduction text */}
-          <section className={styles.introTxt}>
+          <section>
             <div className="container d-flex flex-row justify-content-center">
               <div className="row">
                 <div classname="col-lg-10 col-lg-offset-1">

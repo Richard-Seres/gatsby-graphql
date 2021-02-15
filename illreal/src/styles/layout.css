@@ -50,10 +50,6 @@ body a:hover {
   transition: all 0.8s ease;
 }
 
-/*===============================================*/
-/*                PORTFOLIO PAGE                 */
-/*===============================================*/
-
 section {
-  background-image: url(../content/assets/blackorchid.png);
+  background-image: url(../content/assets/mainBg.png);
 }
