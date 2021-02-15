@@ -1,11 +1,11 @@
 {
   "name": "gatsby-starter-wordpress-blog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A portfolio site for a freelancer photographer powered by Gatsby, GraphQL and Markdown",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com> and Tyler Barnes <tylerdbarnes@gmail.com>",
+  "author": "Richard Seres <seres.richard89@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/Richard-Seres"
   },
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
