@@ -1,8 +1,8 @@
 import React from "react"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import HeaderMain from "./headerMain/headerMain"
-import FooterMain from "./footerMain/footerMain"
+import HeaderMain from "./header/headerMain"
+import FooterMain from "./footer/footerMain"
 
 const Layout = (props) => {
   return (
