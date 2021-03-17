@@ -7,3 +7,18 @@
   font-family: "Corbel";
   src: url("../fonts/corbel.ttf")
 }
+
+@font-face {
+  font-family: "Great Vibes";
+  src: url("../fonts/GreatVibes-Regular.ttf")
+}
+
+@font-face {
+  font-family: "Libre Baskerville";
+  src: url("../fonts/LibreBaskerville-Regular.ttf")
+}
+
+@font-face {
+  font-family: "Muli";
+  src: url("../fonts/Mulish-Regular.ttf")
+}

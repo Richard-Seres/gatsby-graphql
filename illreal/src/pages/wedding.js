@@ -1,15 +1,26 @@
 import React from "react"
+import { Link } from "gatsby"
 import styles from "../styles/wedding.module.css"
-import pageStatus from "../content/assets/page-under-construction.png"
+import HeaderWed from "../components/header/headerWed"
+import FooterWed from "../components/footer/footerWed"
 
 export default function Wedding() {
   return (
       <section className={styles.wedding}>
-        <div className="container h-100 w-100">
-          <div className="row h-100 w-100 align-items-center justify-content-center mx-0">
-              <img className={styles.underCon} src={pageStatus} alt="under construction" />
-          </div>
-        </div>
+        <HeaderWed />
+        <section>
+          <header className={styles.cover}>
+            <div className={styles.wrapper}>
+              <div class={styles.box}>
+                <h2 class={styles.headline}>
+                  <Link to="/portfolio/wedding">Wedding</Link>
+                </h2>
+              </div>
+            </div>
+          </header>
+          
+        </section>
+        <FooterWed />
       </section>
   )
 }

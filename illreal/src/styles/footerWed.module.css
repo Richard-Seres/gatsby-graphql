@@ -1,17 +1,29 @@
-.footerMain {
+@import "../styles/typography.css";
+
+.footerWed {
   padding: 0;
   background-color:#2A2A2A;
   line-height: 2.9;
   width: 100%;
 }
 
+.footerWed a {
+  font-family: "Great Vibes";
+  font-size: 1.5rem;
+  color: #d2ba87;
+}
+
+.footerWed a:hover {
+  color: #BD806E;
+}
+
 .itemSep {
-  color: white;
+  color: #d2ba87;
 }
 
   /* Social media icons */
   .social{
-    color: white;
+    color: #d2ba87;
     width: 2rem;
     height: 2rem;
     margin: 0.5rem;
@@ -21,34 +33,38 @@
   }
 
     .social:hover{
-      color: #6726c2;
+      color: #BD806E;
       width: 3rem;
       height: 3rem;
     }
 
   .copyRText {
-    white-space:nowrap;
+    font-family: "Muli";
+    white-space: nowrap;
     color: #707070;
   }
 
-    .me{
-      color: #707070;
-    }
+  .copyRText > a {
+    font-family: "Muli";
+    font-size: 1rem;
+    color: #707070;
+  }
 
   .logo {
     font-family: 'Corbel';
     font-size: 2.2rem;
     letter-spacing: 0.5rem;
     text-transform: uppercase;
-    color: white;
+    color: #d2ba87;
     transition: font-size .2s ease, font-family .2s ease;
     transition-delay: font-size .4s, font-family .8s;
   }
 
     .logo:hover {
-      color: #6726c2;
-      font-size: 2.6rem;
-      font-family: "Pacifica";
+      color: #BD806E;
+      font-size: 3.5rem;
+      font-family: "Great Vibes";
+      text-transform: none;
     }
 
 
@@ -63,6 +79,10 @@
         text-align: center;
       }
 
+      .footerWed a {
+        font-size: 1.25rem;
+      }
+
       .social{
         margin-top: 1rem;
       }
@@ -73,7 +93,7 @@
     }
 
     @media (max-width: 865px) {
-      .copyRText {
+      .copyRText, .copyRText > a {
         font-size: 0.7rem;
       }
     }
